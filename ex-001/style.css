@@ -1,0 +1,22 @@
+
+h2{
+    color: white;
+    font-size: 32px
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 50px
+}
+summary{
+    color: white;
+    font: size 23px;
+}
+button{
+    background-color: #af4c4c;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 4px 16px;
+    text-decoration: none;
+    margin: 2px 1px;
+    cursor: pointer;
+}

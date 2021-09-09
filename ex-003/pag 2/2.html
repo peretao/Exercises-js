@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina 2</title>
+    <link rel="stylesheet" href="2style.css">
+  <style>
+     body{
+        background-color: hsl(240, 81%, 75%)/*fundo da pagina*/
+    }
+    button{
+        display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    will-change: box-shadow,transform;
+    background: radial-gradient( 100% 100% at 100% 0%, #89E5FF 0%, #5468FF 100% );
+    box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px rgb(58 65 111 / 50%);
+    padding: 0 32px;
+    border-radius: 6px;
+    color: #fff;
+    height: 48px;
+    font-size: 18px;
+    text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+    transition: box-shadow 0.15s ease,transform 0.15s ease;
+}
+</style>
+</head>
+<body>
+    <h1> click down bottom</h1>
+    <details>
+        <summary>wants to go back?</summary><a href="../index.html">click here</a>
+    </details>
+    <br>
+    <hr>
+    <br>
+    <button onclick="inicio()"> click here 😈
+    </button>
+    <script>
+        function inicio() {
+            var name2 = window.prompt("Qual seu nome?")
+            window.alert("Feliz aniversário " + name2 + "🎉🎉🎉🎉🎉")// o sinal (+) representa concatenação
+        }
+    </script>
+</html>

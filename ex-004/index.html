@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First contact JavaScript</title>
+    <style>
+        body{
+            color: white;
+        background-color:#adccf5;
+        font: normal 18pt Arial, sans-serif;
+    }
+    #area{
+        width: 400px;
+        height: 200px;
+        line-height: 200px;
+        text-align: center;
+        box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    }
+    </style>
+</head>
+<body>
+    <div id ='area' onclick="clicou()"  onmouseenter="entrar()" onmouseout="sair()">
+        vem aqui com esse mouse gostosao
+    </div>
+
+    <script>
+        var a = window.document.getElementById('area')
+        function clicou() {
+            a.innerText = 'me deve 10 pila bobão'
+            a.style.background = 'black'
+        }
+        function entrar() {
+            a.innerText = 'isso , agora é só clicar 🥴'
+            a.style.background = 'blue'
+        }
+        function sair() {
+            a.innerText = 'volta aqui seu gostoso'
+            a.style.background = 'red'
+        }
+    </script>
+</body>
+</html>
